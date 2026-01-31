@@ -1,27 +1,27 @@
-# Core
-streamlit==1.29.0
-pandas==2.1.4
+# Core (versions stables)
+streamlit==1.28.1
+pandas==2.0.3
 numpy==1.24.3
-plotly==5.18.0
+plotly==5.17.0
 
-# Machine Learning
-scikit-learn==1.3.2
-xgboost==2.0.1
+# Machine Learning (versions compatibles)
+scikit-learn==1.3.0
 joblib==1.3.2
 
 # Data Processing
 openpyxl==3.1.2
-xlrd==2.0.1
 
 # Visualization
-matplotlib==3.8.2
-seaborn==0.13.0
+matplotlib==3.7.1
+seaborn==0.12.2
 
 # Utilities
 python-dotenv==1.0.0
 python-dateutil==2.8.2
-pytz==2023.3.post1
-psutil==5.9.6
+pytz==2023.3
 
-# Optional
-shap==0.44.0
+# Optional (removed xgboost and lightgbm for compatibility)
+# xgboost==1.7.6  # Problème de compatibilité avec Streamlit Cloud
+# lightgbm==4.1.0 # Problème de compatibilité
+# shap==0.42.1    # Problème de compatibilité
+# tensorflow==2.13.0 # Trop lourd pour Streamlit Cloud
