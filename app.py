@@ -204,7 +204,7 @@ with st.sidebar:
 
 # ===== PAGE ACCUEIL =====
 if page == "Accueil":
-    st.markdown('<div class="main-header">IA Vulnérabilité Sanitaire - Yaoundé</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">IA Vulnérabilité Sanitaire - Douala & Yaoundé</div>', unsafe_allow_html=True)
     
     col1, col2 = st.columns([2, 1])
     
@@ -212,7 +212,7 @@ if page == "Accueil":
         st.markdown("""
         ### 🌍 Contexte de la Recherche
         Cette application analyse la vulnérabilité sanitaire des quartiers précaires 
-        de Yaoundé face aux contraintes climatiques.
+        de Douala et Yaoundé face aux contraintes climatiques.
         
         ### 🎯 Objectifs
         - Identifier les poches les plus vulnérables
@@ -810,7 +810,7 @@ elif page == "Configuration":
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #7f8c8d;'>
-    <p>© 2024 - Recherche sur la Vulnérabilité Sanitaire - Université de Yaoundé I</p>
-    <p>Contact: recherche.vulnerabilite@cm | Version 1.0.0</p>
+    <p>© 2026 - Recherche sur la Vulnérabilité Sanitaire - Lab_Math  and SCSM group & CIE</p>
+    <p>Contact: scsm@scsmaubmar.org | Version 1.0.0</p>
 </div>
 """, unsafe_allow_html=True)
